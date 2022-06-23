@@ -6,7 +6,7 @@ import './App.css';
 export default function BeanieDetail() {
   const [beanieBaby, setBeanieBaby] = useState({});
   const params = useParams();
-  // you'll need to track the current beanieBaby in state
+  
   // you'll need to get the route param using the appropriate react router hook
 
   useEffect(() => {
